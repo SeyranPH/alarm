@@ -49,5 +49,5 @@ app.use(router);
 mongoose.connect("mongodb://localhost:27017/alarm");
 
 app.listen( 3456, function(){
-    console.log('Listening on port 3456');
+    console.log('Listening on port 3456, and also hello');
 });
